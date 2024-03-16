@@ -699,7 +699,7 @@ footer {
         .products-body-item {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 0px;
+            gap: 10px;
             margin-bottom: 40px;
             padding: 15px 0;
         }
@@ -874,6 +874,36 @@ footer {
                     margin-bottom: 20px;
                 }
             }
+        }
+    }
+}
+
+@media(max-width:385px) {
+
+    .new {
+        .products-body {
+            width: 165px;
+        }
+    }
+
+    footer {
+        .footer-top__logo--text {
+
+            font-size: 12px;
+        }
+
+        .footer-top__box--input {
+            margin-bottom: 20px;
+            width: 80px;
+            font-size: 12px;
+        }
+
+        .footer-top__box--name {
+            font-size: 12px;
+        }
+
+        .footer-top__box--btn {
+            font-size: 12px;
         }
     }
 }
