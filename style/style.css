@@ -878,7 +878,7 @@ footer {
     }
 }
 
-@media(max-width:385px) {
+@media(max-width:395px) {
 
     .new {
         .products-body {
@@ -899,6 +899,26 @@ footer {
         }
 
         .footer-top__box--name {
+            font-size: 12px;
+        }
+
+        .footer-top__box--btn {
+            font-size: 12px;
+        }
+    }
+}
+
+@media(max-width:418px) {
+    .new {
+        .products-body {
+            width: 180px;
+        }
+    }
+
+    footer {
+        .footer-top__box--input {
+
+            width: 130px;
             font-size: 12px;
         }
 
